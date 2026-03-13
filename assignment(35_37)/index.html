@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Mohamed">
+  <meta name="description" content="The last assignment (35 - 37)">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="">
+  <style></style>
+  <script></script>
+</head>
+
+<body>
+<!--
+  ARIA ماذا تعني كلمة
+    ARIA => Accessible Reach Internet Application تطبيق لإمكانية الوصول للإنترنت
+  ____________________________________________________________
+  ماهو العنصر المناسب لوضعه داخل النموذج لارسال البيانات عند الضغط عليه؟
+    <input type="submit">
+  ____________________________________________________________
+  ماهو العنصر المناسب ليكون عنوان للصفحة كاملة؟
+    <title></title>
+  ____________________________________________________________
+  ماهو العنصر المناسب ليكون عنوان لقسم داخل الصفحة؟
+    <header></header>
+  ____________________________________________________________
+  ماهو العنصر المناسب ليحتوي علي فقرة نصية
+    <p></p>
+  ____________________________________________________________
+  كيف تحدد لغة المحتوي الخاص بصفحتك, يمكنك كتابة العنصر الكامل مع السمة الخاصى بتحديد اللغة
+    <html lang="en"></html>
+  ____________________________________________________________
+  في عالم الاكسيسيبيليتي هل الافضل ان اكتب 
+  10 - 20 or 10 to 20 
+    10 to 20
+  ____________________________________________________________
+  اذا كان لديك عنصر الديف وتريد الوصول اليه عن طريق الضغط عليه ماذا سوف تفعل؟
+      <div tabindex"0"></div>
+  -->
+  <h1>Choose The Correct Answer</h1>
+  <label id="1">The correct Answer</label>
+  <div role="button" aria-labelledby="1" tabindex="0" aria-checked="true" id="">Choice One</div>
+  <div role="button" aria-labelledby="2" tabindex="0" aria-checked="false">Choice Two</div>
+  <div role="button" aria-labelledby="3" tabindex="0" aria-checked="false">Choice Three</div>
+  <br>
+  <!-- separator -->
+  <hr>
+  <br>
+  <div class="choose-skill">
+    <div class="skill" tabindex="0" role="radio" aria-labelledby="1" aria-checked="true">Python</div>
+    <label>Skill One</label>
+    <div class="skill" tabindex="0" role="radio" aria-labelledby="2">PHP</div>
+    <label>Skill Two</label>
+    <div class="skill" tabindex="0" role="radio" aria-labelledby="3">JavaScript</div>
+    <label>Skill Three</label>
+  </div>
+</body>
+
+</html>

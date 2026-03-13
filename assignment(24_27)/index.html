@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Assignment (24 - 27)</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mohamed Gamal">
+    <meta name="description" content="This is my assignment (24 - 27)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <style>
+        span {
+            color: wheat;
+            background-color: brown;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <script></script>
+</head>
+
+<body>
+    <h1>Welcome To Our Course</h1>
+    <p><b>Your opinion</b> is very <span>important</span> for us.</p>
+    <fieldset>
+        <legend>Form-1</legend>
+        <form action="test.py" method="post" target="_blank">
+            <input type="hidden" value="27122021" name="Hidden-ID">
+            <label for="1">Username</label>
+            <br>
+            <input type="text" placeholder="Enter your username" name="username" id="1" required autofocus>
+            <hr>
+            <label for="2">Password</label>
+            <br>
+            <input type="password" placeholder="Write a strong password" name="password" id="2" minlength="7"
+                maxlength="12">
+            <hr>
+            <label for="3">Phone number</label>
+            <br>
+            <input type="tel" name="number" id="3" value="+20100 (234) 123"
+                placeholder="Enter your mobile phone number">
+            <hr>
+            <label for="4">Email</label>
+            <br>
+            <input type="email" placeholder="enter your email" name="email" required id="4">
+            <hr>
+            <label for="5">Subject</label>
+            <br>
+            <input type="text" name="subject" id="5" placeholder="Write your subject">
+            <hr>
+            <label for="6">your satisfaction's range</label>
+            <br>
+            <input id="6" type="range" name="range" step="2" min="0" max="10" value="6">
+            <br> <br>
+            <input type="submit" value="Send Data">
+            <input type="reset" value="Empty Form">
+        </form>
+    </fieldset>
+</body>
+
+</html>

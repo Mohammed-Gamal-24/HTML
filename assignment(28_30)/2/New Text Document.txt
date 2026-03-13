@@ -1,0 +1,7 @@
+<label for="01"> choose your title</label>
+            <select name="Front-End Developer" id="01">
+                <option value="">Front-End Developer</option>
+                <option value="">Back-End Developer</option>
+                <option value="">Business Analyst</option>
+                <option value="">Project Manager</option>
+                <option value="">Scrum Master</option>
